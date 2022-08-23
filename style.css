@@ -110,3 +110,29 @@ body{
     font-size: 20px;
     margin-bottom: 40px;
 }
+
+.container{
+    background-color: #151515;
+    height: calc(100vh - 50px);
+    /* 100vh mai se 50px minus kardo 50px navbar ki height hai */
+    color: white;
+}
+
+.content-container{
+    margin-left: 50px;
+}
+
+.featured-content{
+    height: 50vh;
+    padding: 50px;
+}
+
+.featured-title{
+    width: 200px;
+}
+
+.featured-desc{
+    width: 500px;
+    color: lightgray;
+    margin: 30px 0;
+}
