@@ -86,7 +86,8 @@ body{
 .toggle-ball{
     width: 18px;
     height: 18px;
-    background-color: pink;
+    /* background-color: pink; */
+    background-color: black;
     position: absolute;
     right: 1px;
     border-radius: 50px;
@@ -241,27 +242,39 @@ body{
     cursor: pointer;
 }
 
-.container{
+.container.active{
     background-color: white;
 }
 
-.movie-list-title{
+.movie-list-title.active{
     color: #000;
 }
 
-.navbar-container{
+.navbar-container.active{
     background-color: white;
     color: black;
 }
 
-.sidebar{
+.sidebar.active{
     background-color: #fff;
 }
 
-.left-menu-icon{
+.left-menu-icon.active{
     color: black;
 }
 
-.toggle{
+.toggle.active{
     background-color: black;
+}
+
+.toggle-ball.active{
+    background-color: black;
+    left: 1px;
+    transform: translateX(0px);
+}
+
+@media only screen and (max-width: 940px){
+    .menu-container{
+        display: none;
+    }
 }
